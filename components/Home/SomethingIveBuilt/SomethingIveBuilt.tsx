@@ -146,7 +146,7 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-              <p>{`I have worked as a full stack dev to complete this wedding halls booking app, including its login and signup, list of halls, halls booking, and chatting features.`}</p>
+              <p className="text-white">{`I have worked as a full stack dev to complete this wedding halls booking app, including its login and signup, list of halls, halls booking, and chatting features.`}</p>
 
 
               </div>
@@ -208,16 +208,16 @@ export default function SomethingIveBuilt() {
                 <span className="text-AAsecondary text-base">Recent Project</span>
                 <Link href={"/typing"}>
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Speed Typing
+                   All Video Downloader
                   </span>
                 </Link>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  This project aim to help you to improve your <span className="text-AAsecondary"> typing </span> by
-                  tracking your progress in <span className="text-AAsecondary"> each round</span> and give you a{" "}
-                  <span className="text-AAsecondary"> score</span> based on your typing speed and accuracy through a
-                  table of <span className="text-AAsecondary"> statistics</span>.
+                  This project aim to help you  Download  <span className="text-AAsecondary"> Any video online </span> by pasting the
+                  link <span className="text-AAsecondary"> each round</span> and give you a{" "}
+                  <span className="text-AAsecondary"> Video details</span> and saves
+                  video <span className="text-AAsecondary"> in your local storage</span>.
                 </p>
               </div>
               <ul
