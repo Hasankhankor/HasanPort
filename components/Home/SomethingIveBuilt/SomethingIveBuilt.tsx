@@ -146,9 +146,7 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-              <p className="text-gray-300 md:text-gray-400 text-left text-lg md:text-xl font-bold">
-  It's a  website where the admin can post news from the admin panel, and it will be visible to users.
-</p>
+              <p>{`I have worked as a full stack dev to complete this wedding halls booking app, including its login and signup, list of halls, halls booking, and chatting features.`}</p>
 
 
               </div>
