@@ -91,8 +91,8 @@ export default function Home() {
 
   const meta = {
     title: "Hassan Tariq - Software Engineer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
-    image: "/titofCercle.png",
+    description: `I've been working on Software development for 4 years straight. Get in touch with me to know more.`,
+    image: "https://ik.imagekit.io/os33grffu/WhatsApp_Image_2024-03-28_at_9.51.58_PM-removebg-preview%20(2).png?updatedAt=1721845473127",
     type: "website",
   };
 
