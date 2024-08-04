@@ -92,3 +92,90 @@ a {
   }
 }
 
+body {
+  background: #0D1117;
+  height: 100vh;
+}
+
+.solar-system {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+
+  .js-sun {
+    position: absolute;
+  }
+
+  .react-planet {
+    position: absolute;
+    animation: orb 35s linear infinite;
+  }
+
+  .nextjs-planet {
+    position: absolute;
+    animation: orb 45s linear infinite;
+  }
+
+  .sass-planet {
+    position: absolute;
+    animation: orb 25s linear infinite;
+  }
+
+  .storybook-planet {
+    position: absolute;
+    animation: orb 5s linear infinite;
+  }
+
+  .styled-components-planet {
+    position: absolute;
+    animation: orb 14s linear infinite;
+  }
+
+  .figma-planet {
+    position: absolute;
+    animation: orb 60s linear infinite;
+  }
+}
+
+.stars {
+  position: absolute;
+  z-index: -1;
+
+  ellipse {
+  animation: stars 2s ease-in alternate infinite;
+}
+}
+
+@keyframes orb {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes stars {
+  0% {
+    filter: contrast(0%);
+  }
+  35% {
+     filter: contrast(25%);
+  }
+  40% {
+     filter: contrast(50%);
+  }
+  60% {
+    filter: contrast(75%);
+  }
+  100% {
+    filter: contrast(170%);
+  }
+}
+
+.orbit, .figma-planet, .js-sun, .react-planet, .nextjs-planet, .sass-planet, .styled-components-planet, .storybook-planet {
+  margin-left: 450px;
+}

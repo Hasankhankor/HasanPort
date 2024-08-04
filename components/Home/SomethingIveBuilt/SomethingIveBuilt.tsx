@@ -5,7 +5,7 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 import Img from "../../smallComp/image/Img";
 import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 import ExternalLink from "../../Icons/ExternalLink";
-
+import  Projects from "../SomethingIveBuilt/Projects";
 export default function SomethingIveBuilt() {
   const router = useRouter();
   return (
@@ -368,9 +368,15 @@ export default function SomethingIveBuilt() {
                 <GithubIcon link="https://github.com/Hasankhankor/HasanDevSuite" />
                 <ExternalLink url={"https://hasan-dev-suite.vercel.app/"} router={router} />
               </div>
+
             </div>
+
           </div>
+
         </div>
+
+
+
       </div>
     </div>
   );
