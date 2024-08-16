@@ -23,6 +23,7 @@ const OptionsComponent: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
+
       <div
         className={`group relative w-full md:w-[900px] h-[350px] overflow-hidden rounded-xl mb-6 transition-transform duration-300 ${
           zoomedIndex === 0 ? 'scale-105' : ''

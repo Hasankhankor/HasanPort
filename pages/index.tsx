@@ -17,6 +17,8 @@ import OptionsComponent from "../components/OptionsComponent/OptionsComponent";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
 import Maintenance from "../components/Home/Maintenance/Maintenance";
 
+import Project from "../components/Projects/page";
+
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
   const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
@@ -137,6 +139,7 @@ export default function Home() {
         </div>
       ) : (
         <>
+        <Project/>
           <OptionsComponent />
           <Maintenance />
         </>

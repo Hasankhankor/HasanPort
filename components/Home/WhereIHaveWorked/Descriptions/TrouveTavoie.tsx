@@ -5,8 +5,8 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TrouveTavoie() {
   const tasks = [
     {
-      text: "Spearhead & implemented a new design user workflow system for the Frond-End Architecture of a Digital Marketplace.",
-      keywords: ["Digital Marketplace"],
+      text: "implemented a new design user workflow system for the Frond-End Architecture of a Wordpress.",
+      keywords: ["Wordpress"],
     },
     {
       text: "Worked with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js/React, AWS and Vercel.",

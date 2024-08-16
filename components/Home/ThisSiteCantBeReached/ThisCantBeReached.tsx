@@ -7,7 +7,7 @@ export default function ThisCantBeReached() {
   React.useEffect(() => {
     setTimeout(function () {
       setShowText(true);
-    }, 1000);
+    }, 100);
   }, []);
   if (typeof window !== "undefined") {
     if(window.innerHeight>640){
@@ -26,26 +26,26 @@ export default function ThisCantBeReached() {
     }else{
       CenterWidth = (window.innerWidth)/2-16-18;
     }
-    
+
   }
- 
+
   return (
     <motion.div
       initial={{ opacity: 1 }}
       animate={{opacity:0}}
       transition={{ delay:4,duration: 0.5 }}
-      className="absolute h-screen w-full bg-white 
-      py-16 sm:py-40 
-      px-4 sm:px-24 md:px-36 lg:px-48 xl:px-96 
+      className="absolute h-screen w-full bg-white
+      py-16 sm:py-40
+      px-4 sm:px-24 md:px-36 lg:px-48 xl:px-96
       flex flex-col space-y-5 sm:space-y-10
       "
     >
       <div className="relative w-full  flex flex-col space-y-4">
         {/* Icon for Desktop and Table */}
-        
-        <motion.div 
+
+        <motion.div
         animate={{y:CenterHeight,x:CenterWidth,scale:2}}
-        transition={{delay:2,duration:1}}
+        transition={{delay:1,duration:1}}
         className="relative w-9 h-10 ">
           <div className="absolute h-1 w-1/2 bg-gray-600"></div>
           <div className="absolute h-full w-1 bg-gray-600"></div>
@@ -165,8 +165,8 @@ export default function ThisCantBeReached() {
               Hello!
             </motion.span>
 
-        
-        
+
+
         {/* Text start from here */}
 
         <motion.div

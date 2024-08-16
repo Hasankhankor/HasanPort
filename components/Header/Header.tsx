@@ -3,6 +3,7 @@ import Logo from "./Headercomp/Logo";
 import DesktopMenu from "./Headercomp/DesktopMenu";
 import IconMenu from "./Headercomp/IconMenu";
 import MobileMenu from "./Headercomp/MobileMenu";
+import Projects from "../Projects/page"
 import { motion } from "framer-motion";
 import AppContext from "../AppContextFolder/AppContext";
 

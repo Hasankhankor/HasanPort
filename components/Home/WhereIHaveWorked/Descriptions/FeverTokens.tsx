@@ -4,16 +4,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function FeverTokens() {
   const tasks = [
     {
-      text: "Leading the development of the NFT Marketplace v2 for the Platform FeverTokens.",
-      keywords: ["NFT Marketplace v2"],
+      text: "Leading the development of the Majid farms Website in Nextjs, Figma.",
+      keywords: ["Nextjs, Figma"],
     },
     {
-      text: "Worked with a team of six developers to build a temporary NFT Marketplace platform for VivaTech2022 event, an ambitious startup originating from France,Paris.",
-      keywords: ["VivaTech2022 event"],
+      text: "Worked with a team of Social Media .",
+      keywords: ["Social Media"],
     },
     {
-      text: "Interacted with the blockchain & Smart Contracts to build the new FeverTokens Platform.",
-      keywords: ["blockchain & Smart Contracts"],
+      text: "Implemented Meta Ads ",
+      keywords: ["Meta Ads"],
     },
   ];
   return (
