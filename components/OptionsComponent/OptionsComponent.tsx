@@ -22,6 +22,7 @@ const OptionsComponent: React.FC = () => {
   const [zoomedIndex, setZoomedIndex] = useState<number | null>(null);
 
   return (
+    
     <div className="flex flex-col items-center justify-center min-h-screen">
 
       <div

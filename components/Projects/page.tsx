@@ -14,7 +14,7 @@ export default function Project() {
     { id: 1, title: 'CodeKit By Hassan', price: 'TW Components', imageUrl: 'https://ik.imagekit.io/os33grffu/code2.JPG?updatedAt=1723830890006', url: 'https://codekitx.netlify.app/' },
     { id: 2, title: 'CarouselCraft by Hassan', price: 'Edit Cards', imageUrl: 'https://ik.imagekit.io/os33grffu/cri.JPG?updatedAt=1723830899128', url: 'https://carouselcraft-by-hasan.netlify.app/' },
     { id: 3, title: 'CV By Hasan', price: 'Edit, Read CV', imageUrl: 'https://ik.imagekit.io/os33grffu/cv%20by.PNG?updatedAt=1723831212724', url: 'https://cv-by-hassan.vercel.app/' },
-    { id: 4, title: 'Hass Edit Pro', price: 'Edit Videos', imageUrl: 'https://ik.imagekit.io/os33grffu/edpro.PNG?updatedAt=1723831316970', url: 'https://hass-edit-pro.vercel.app/' },
+    { id: 4, title: 'Hass Edit Pro', price: 'Edit Videos', imageUrl: 'https://ik.imagekit.io/os33grffu/v34.JPG?updatedAt=1723917377895', url: 'https://hass-edit-pro.vercel.app/' },
     { id: 5, title: 'Web IDE', price: 'HTML,CSS,JS IDE', imageUrl: 'https://ik.imagekit.io/os33grffu/wev.JPG?updatedAt=1723831727856', url: 'https://code-with-hassan.vercel.app/' },
     { id: 6, title: 'Flimflix', price: 'Movies List', imageUrl: 'https://ik.imagekit.io/os33grffu/flim.JPG?updatedAt=1723832776912', url: 'https://github.com/Hasankhankor/Flimflix-Nextjs-Movies-' },
   ];
